@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main() {
+    int dia = 31;
+    int mes = 5;
+    int ano_nascimento = 2008;
+
+    int dia_atual = 23;   
+    int mes_atual = 3;    
+    int ano_atual = 2026;
+
+    int idade = ano_atual - ano_nascimento;
+
+  
+    if (mes_atual < mes || (mes_atual == mes && dia_atual < dia)) {
+        idade--;
+    }
+
+    printf("Idade: %d anos\n", idade);
+
+    return 0;
+}
