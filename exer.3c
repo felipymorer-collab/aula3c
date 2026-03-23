@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    int quantidade = 5;
+    float preco_unitario = 10.0; // coloque o valor que quiser
+    float total = quantidade * preco_unitario;
+
+    printf("Produto: Exemplo\n");
+    printf("Quantidade: %d\n", quantidade);
+    printf("Preco por unidade: R$ %.2f\n", preco_unitario);
+    printf("Total: R$ %.2f\n", total);
+
+    return 0;
+}
