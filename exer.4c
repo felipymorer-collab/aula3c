@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+    float reais = 50.0;
+    float cotacao = 5.22;
+    float dolares = reais / cotacao;
+
+    printf("Com R$ %.2f voce pode comprar %.2f dolares\n", reais, dolares);
+
+    return 0;
+}
